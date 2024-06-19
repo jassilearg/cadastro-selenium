@@ -13,7 +13,6 @@ public class Cadastro {
     private Faker faker = new Faker();
     private String cidade = faker.address().city();
     private String estado = faker.address().state();
-    private String pais = faker.address().country();
     private String nomeRua = faker.address().streetName();
     private String cep = faker.address().zipCode();
     private String email = faker.internet().emailAddress();
